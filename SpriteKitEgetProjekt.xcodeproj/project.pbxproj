@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E80A8B8258A459C0034E0C8 /* LeftRightScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E80A8B7258A459C0034E0C8 /* LeftRightScene.swift */; };
 		9E89E52125875A35003EC09F /* SpriteKitEgetProjektApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E89E52025875A35003EC09F /* SpriteKitEgetProjektApp.swift */; };
 		9E89E52325875A35003EC09F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E89E52225875A35003EC09F /* ContentView.swift */; };
 		9E89E52525875A36003EC09F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E89E52425875A36003EC09F /* Assets.xcassets */; };
 		9E89E52825875A36003EC09F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E89E52725875A36003EC09F /* Preview Assets.xcassets */; };
+		9E89E53325877513003EC09F /* RedRutanScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9E89E53225877513003EC09F /* RedRutanScene.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E80A8B7258A459C0034E0C8 /* LeftRightScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftRightScene.swift; sourceTree = "<group>"; };
 		9E89E51D25875A35003EC09F /* SpriteKitEgetProjekt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpriteKitEgetProjekt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E89E52025875A35003EC09F /* SpriteKitEgetProjektApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitEgetProjektApp.swift; sourceTree = "<group>"; };
 		9E89E52225875A35003EC09F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9E89E52425875A36003EC09F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E89E52725875A36003EC09F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9E89E52925875A36003EC09F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E89E53225877513003EC09F /* RedRutanScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = RedRutanScene.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				9E89E52025875A35003EC09F /* SpriteKitEgetProjektApp.swift */,
+				9E80A8B7258A459C0034E0C8 /* LeftRightScene.swift */,
 				9E89E52225875A35003EC09F /* ContentView.swift */,
+				9E89E53225877513003EC09F /* RedRutanScene.sks */,
 				9E89E52425875A36003EC09F /* Assets.xcassets */,
 				9E89E52925875A36003EC09F /* Info.plist */,
 				9E89E52625875A36003EC09F /* Preview Content */,
@@ -127,6 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E89E52825875A36003EC09F /* Preview Assets.xcassets in Resources */,
+				9E89E53325877513003EC09F /* RedRutanScene.sks in Resources */,
 				9E89E52525875A36003EC09F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E80A8B8258A459C0034E0C8 /* LeftRightScene.swift in Sources */,
 				9E89E52325875A35003EC09F /* ContentView.swift in Sources */,
 				9E89E52125875A35003EC09F /* SpriteKitEgetProjektApp.swift in Sources */,
 			);
